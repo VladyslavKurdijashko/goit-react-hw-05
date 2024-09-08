@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { fetchMoviesByQuery } from "../../componets/Api/api";
-import MovieList from "../../componets/MovieList/MovieList";
+import { fetchMoviesByQuery } from "../../components/Api/api";
+import MovieList from "../../components/MovieList/MovieList";
 import styles from "./MoviesPage.module.css";
 
 const MoviesPage = () => {

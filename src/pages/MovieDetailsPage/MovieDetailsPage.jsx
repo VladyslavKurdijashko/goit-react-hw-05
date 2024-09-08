@@ -1,7 +1,7 @@
 import { useParams, Link, Outlet, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Loader from "../../componets/Loader/loader";
+import Loader from "../../components/Loader/loader";
 import styles from "./MovieDetailsPage.module.css";
 
 const MovieDetailsPage = () => {
